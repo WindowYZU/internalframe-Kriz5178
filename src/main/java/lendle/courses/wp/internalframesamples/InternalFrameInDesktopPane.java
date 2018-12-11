@@ -38,7 +38,7 @@ public class InternalFrameInDesktopPane {
         for(int i=1;i<=10;i++){         
             JInternalFrame jInternalFrame = new JInternalFrame();
             frame.add(jInternalFrame);
-            jInternalFrame.setSize(450, 800);
+            jInternalFrame.setSize(300, 300);
             jInternalFrame.setVisible(true);
             jInternalFrame.setMaximizable(true);
             jInternalFrame.setIconifiable(true);
